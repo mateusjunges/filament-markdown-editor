@@ -25,7 +25,7 @@ class MarkdownEditorServiceProvider extends PackageServiceProvider
             FilamentAsset::register([
                 Js::make('spatie-markdown-editor', __DIR__.'/../resources/dist/editor.js'),
                 Css::make('font-awesome', 'https://pro.fontawesome.com/releases/v5.15.4/css/all.css'),
-                Css::make('spatie-markdown-editor', __DIR__.'/../resources/css/editor.css')
+                Css::make('spatie-markdown-editor', __DIR__.'/../resources/css/editor.css'),
             ]);
         } else {
             Filament::registerScripts([
