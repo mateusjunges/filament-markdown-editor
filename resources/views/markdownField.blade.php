@@ -1,10 +1,9 @@
-<x-forms::field-wrapper
+<x-filament-forms::field-wrapper
     :id="$getId()"
     :label="$getLabel()"
     :label-sr-only="$isLabelHidden()"
     :helper-text="$getHelperText()"
     :hint="$getHint()"
-    :hint-action="$getHintAction()"
     :hint-color="$getHintColor()"
     :hint-icon="$getHintIcon()"
     :required="$isRequired()"
@@ -154,4 +153,4 @@
     >
         <textarea x-ref="editor"></textarea>
     </div>
-</x-forms::field-wrapper>
+</x-filament-forms::field-wrapper>
